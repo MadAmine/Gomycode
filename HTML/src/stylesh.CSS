@@ -1,0 +1,14 @@
+p {
+    border: 10px solid black;
+    margin: 20px;
+  }
+
+  .rounded {
+    border-radius: 15px;
+    background-color: aqua;
+    border-color: aqua;
+  }
+
+  .elliptical {
+    border-radius: 50px / 25px;
+  }
