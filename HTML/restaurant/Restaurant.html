@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        /* styles.css */
+.hero-section {
+  height: 100vh;
+  background: url('hero bg.jpg') no-repeat center center/cover;
+}
+
+.hero-section .text-center {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer a {
+  color: #343a40;
+  font-size: 1.2rem;
+}
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top" >
+    <a class="navbar-brand" href="#">Amine Food</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="text-center text-white">
+      <h1>Welcome to Our Restaurant</h1>
+      <a href="#menu" class="btn btn-success mt-4">Go to Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Pasta.jpg" class="card-img-top" alt="Dish 1">
+          <div class="card-body">
+            <h5 class="card-title">Pasta 🍝</h5>
+            <p class="card-text">A delicious and easy Farfalle Pasta in Garlic Parmesan Cream Sauce recipe, which pairs a garlic parmesan cream sauce with farfalle pasta.</p>
+            <p class="card-text"><strong>$10.99</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Pizza.jpg" class="card-img-top" alt="Dish 2">
+          <div class="card-body">
+            <h5 class="card-title">Pizza 🍕</h5>
+            <p class="card-text">tomato, cheese, and other your favorite toppings, baked at a high temperature in a wood-fired oven.</p>
+            <p class="card-text"><strong>$12.99</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Burger.jpg" class="card-img-top" alt="Dish 3">
+          <div class="card-body">
+            <h5 class="card-title">Beef Burger 🍔</h5>
+            <p class="card-text"> Juicy patty, made from ground or chopped beef and nestled between two halves of a soft bun. with slices of raw onion, lettuce, bacon, and mayonnaise as toppings.</p>
+            <p class="card-text"><strong>$15.99</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="guaca.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Guacamole 🥑</h5>
+              <p class="card-text">A creamy dip made from mashed avocados, lime juice, salt, and other ingredients like onion, cilantro, tomato, garlic, and chili peppers. (served with chips)</p>
+              <p class="card-text"><strong>$10.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="chick.jpg" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Fried Chicken Wings 🍗</h5>
+              <p class="card-text">Description of Dish 2</p>
+              <p class="card-text"><strong>$12.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="egg.jpg" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Fried Egg 🍳</h5>
+              <p class="card-text">Description of Dish 3</p>
+              <p class="card-text"><strong>$15.99</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="container my-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center mb-4">About us</h2>
+    </div>
+        </div>
+       
+      </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="Restau.jpg" class="img-fluid" alt="About Us">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <p>We are a family-owned restaurant offering the best homemade dishes. Our passion for food and our commitment to quality make us the perfect choice for a delightful dining experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2024 Amine Restaurant. All rights reserved.</p>
+    <div>
+      <a href="#" class="mx-2 h3 text-success"><i class='bx bxl-facebook'></i></i></a>
+      <a href="#" class="mx-2 h3 text-success"><i class='bx bxl-twitter' ></i></i></a>
+      <a href="#" class="mx-2 h3 text-success"><i class='bx bxl-instagram' ></i></i></a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+    <head>
+        <style>
+            main{
+                height: 100%;
+                display: grid;
+                grid-template-areas: 
+                "topbar topbar topbar topbar"
+                "ads content sidebar example"
+                "footer footer footer footer";
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 50px auto 70px;
+                align-items: center;
+                justify-items: center;
+                
+            }
+            header{ grid-area: topbar;}
+            aside{grid-area: ads;}
+            article{grid-area: content;}
+            nav{grid-area: sidebar;}
+            footer{grid-area: footer;}
+            section{ grid-area: example;}
+        </style>
+    </head>
+    <body style="height: 100%;">
+        <main>
+            <header> HEADER HERE </header>
+            <aside> ADS HERE</aside>
+            <article> CONTENT HERE</article>
+            <nav> SIDEBAR HERE</nav>
+            <footer> FOOTER HERE</footer>
+            <section> EXAMPLE HERE </section>
+        </main>
+    </body>
+</html>
